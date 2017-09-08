@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VoiceWaveViewStyle">
+        <attr name="isInLauncher" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomShapeStyle">
+        <attr name="radius" format="dimension"/>
+        <attr name="type">
+            <enum name="TYPE_CIRCLE" value="0"/>
+            <enum name="TYPE_ROUND" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="TouchBarStyle">
+        <attr name="touchBarHeight" format="dimension"/>   
+        <attr name="touchBarPaddingLeft" format="dimension"/>
+        <attr name="touchBarColor" format="color"/>
+        <attr name="numTextSize" format="dimension"/>
+        <attr name="days" format="integer"/>
+    </declare-styleable>
+       
+</resources>
